@@ -2,35 +2,35 @@
 var flights = [
 {
   currency: "EUR",
-  price: 128.67,
+  price: 12867,
   carrier: "KL",
   time: "2h 30min",
   nodes: ["CDG 2017-05-30T09:35+02:00 AMS 2017-05-30T11:15+02:00"] },
 
 {
   currency: "EUR",
-  price: 138.70,
+  price: 13870,
   carrier: "AF",
   time: "2h 30min",
   nodes: ["CDG 2017-05-30T12:35+02:00 AMS 2017-05-30T13:50+02:00"] },
 
 {
   currency: "EUR",
-  price: 151.41,
+  price: 15141,
   carrier: "BA",
   time: "2h 30min",
   nodes: ["CDG 2017-05-30T11:40+02:00 AMS 2017-05-30T12:55+02:00"] },
 
 {
   currency: "EUR",
-  price: 174.70,
+  price: 17470,
   carrier: "KL",
   time: "2h 30min",
   nodes: ["CDG 2017-05-30T18:35+02:00 AMS 2017-05-30T19:50+02:00"] },
 
 {
   currency: "EUR",
-  price: 204.70,
+  price: 20470,
   carrier: "AF",
   time: "2h 30min",
   nodes: ["CDG 2017-05-30T11:40+02:00 AMS 2017-05-30T12:55+02:00"] }];
