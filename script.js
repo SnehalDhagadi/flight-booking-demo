@@ -265,7 +265,7 @@ var airports = [{ "name": "Vichy-Charmeil Airport", "city": "Vichy", "country": 
 				</div>
 			</div>
 			<div class="total">
-				<small>Total</small> <span>&euro;${(flight.price * peopleTotal).toFixed(2)}</span>
+				<small>Total</small> <span>&#8377;${(flight.price * peopleTotal).toFixed(2)}</span>
 			</div>
 		`;
 
@@ -291,7 +291,7 @@ var airports = [{ "name": "Vichy-Charmeil Airport", "city": "Vichy", "country": 
         var ppl = $('.radio.passengers label span'),
         sum = parseInt(ppl.eq(0).text()) + parseInt(ppl.eq(1).text()) + parseInt(ppl.eq(2).text());
 
-        sumText = `${sum} people &euro;${(o.price * sum).toFixed(2)}`;
+        sumText = `${sum} people &#8377;${(o.price * sum).toFixed(2)}`;
         from = $('.fromPlace span').text();
         to = $('.toPlace span').text();
       }
@@ -317,7 +317,7 @@ var airports = [{ "name": "Vichy-Charmeil Airport", "city": "Vichy", "country": 
 					<span>${carrier[o.carrier]} ${from} - ${to}</span>
 					<span>Non-Stop</span>
 
-					<h5><small>${sumText}</small> &euro;${o.price}</h5>
+					<h5><small>${sumText}</small> &#8377;${o.price}</h5>
 				</div>
 			</article>`;
     });
